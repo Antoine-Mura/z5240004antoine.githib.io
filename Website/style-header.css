@@ -1,0 +1,65 @@
+header {
+    display: grid;
+    grid-template-columns: 100% 0%;
+    background-color: #444;
+}
+
+.header-left {
+    text-align: left;
+}
+
+.header-right {
+    text-align: right;
+    
+}
+
+.menu, .activemenu{
+    font-size: 20px;
+    padding: .5em 1em;
+}
+
+.menu:hover {
+    background-color: #334;
+}
+
+.activemenu {
+    background-color: #556;
+}
+
+.activemenu:hover {
+    background-color: #667;
+}
+
+
+.menu a, .activemenu a {
+    color: white;
+    padding: .5em 0;
+    display: block;
+}
+
+
+
+header nav {
+    background-color: #223;
+    padding: 10px;
+} 
+
+.menu-toggle {
+    background-color: #223;
+    border: none;
+    color: white;
+    width: 100%;
+
+    padding: .5em 1em; 
+    font-size: 20px;
+}
+
+.menu-toggle:hover {
+    background-color: #334;
+}
+
+.menu-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

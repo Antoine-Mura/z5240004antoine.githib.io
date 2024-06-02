@@ -1,0 +1,58 @@
+.associative, 
+.hobbies, 
+.projects, 
+.studies, 
+.work,
+.home {
+
+    background-color: #444C;
+    color:white;
+
+    padding: 1%;
+    text-align: center;
+}
+
+
+.associative:hover, 
+.hobbies:hover, 
+.projects:hover, 
+.studies:hover, 
+.work:hover,
+.home:hover {
+    background: linear-gradient(0deg, #333 0%, #448 100%);
+    animation: gradient-animation 2s infinite linear alternate;
+    background-size: 200% 200%;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 50% 0%;
+    }
+    100% {
+        background-position: 50% 100%;
+    }
+}
+
+.associative a, 
+.hobbies a, 
+.projects a, 
+.studies a, 
+.work a,
+.home a
+{
+    color: #BBB;
+    font-weight: bold;
+}
+
+.associative a:hover, 
+.hobbies a:hover, 
+.projects a:hover, 
+.studies a:hover, 
+.work a:hover, 
+.home a:hover {
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+

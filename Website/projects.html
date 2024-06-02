@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antoine Mura</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-main.css">
+    <link rel="stylesheet" href="style-header.css">
+    <link rel="stylesheet" href="style-responsive.css">
+    <link rel="stylesheet" href="style-body.css">
 </head>
 <body>
     <header>
-        <nav>
+        <div class="header-left">
+            <button class="menu-toggle" aria-label="Toggle menu">Menu</button>
             <div class="container">
-                <button class="menu-toggle" aria-label="Toggle menu">Menu</button>
                 <div class="menu-container">
                     <div class="menu">
                         <a href="index.html">Contact</a>
@@ -24,7 +27,7 @@
                     <div class="menu">
                         <a href="associative.html">Associative</a>
                     </div>
-                    <div class="menu">
+                    <div class="activemenu">
                         <a href="projects.html">Projects</a>
                     </div>
                     <div class="menu">
@@ -32,7 +35,8 @@
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
+        <div class="header-right"></div>
     </header>
     <main>
     <h1>Projects</h1>
